@@ -4,6 +4,8 @@ import sys
 from sys import argv
 import os
 
+os.system("git pull")
+
 
 parser = argparse.ArgumentParser()
 
@@ -24,7 +26,9 @@ print (yellow+"""
 █▄█▄█ █▀▀█ ▀█▀ ──█── █▀▀ 　 ▀█▀ █──█ 　 ──█── █▄▄▀ █▄▄█ █── █▀▀ █▄▄▀ 
 ─▀─▀─ ▀──▀ ▀▀▀ ──▀── ▀▀▀ 　 ▀▀▀ █▀▀▀ 　 ──▀── ▀─▀▀ ▀──▀ ▀▀▀ ▀▀▀ ▀─▀▀
 """+yellow)
-print (lgreen+bold+"|||||||||||||| Author : white-eagle |||||||||||||||| \n"+clear)
+print (lgreen+bold+"|||||||||||||| Author   : white-eagle |||||||||||||||| \n"+clear)
+print (lgreen+bold+"-------------- Github   : https://github.com/WH1T3-E4GL3 --------------")
+print (lgreen+bold+"-------------- Telegram : https://t.me/Ka_KsHi_HaTaKe    --------------")
 
 
 ip = args.target
