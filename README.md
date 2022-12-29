@@ -12,9 +12,8 @@ _______________
 	$ cd brute-eagle
 	$ git pull
 	$ pip install -r requirements.txt
-	$ python ipdrone.py -v <target ip>
+	$ python white-IpTracer.py -v <target ip>
 
 
 Github   : https://github.com/WH1T3-E4GL3
 Telegram : https://t.me/Ka_KsHi_HaTaKe
-
