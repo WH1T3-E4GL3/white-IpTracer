@@ -9,10 +9,10 @@ _______________
 	$ pkg install figlet
   	$ pkg install python
 	$ git clone https://github.com/WH1T3-E4GL3/white-IpTracer.git
-	$ cd brute-eagle
+	$ cd white-IpTracer
 	$ git pull
 	$ pip install -r requirements.txt
-	$ python white-IpTracer.py -v <target ip>
+	$ python white-ip.py -v <target ip>
 
 
 Github   : https://github.com/WH1T3-E4GL3
