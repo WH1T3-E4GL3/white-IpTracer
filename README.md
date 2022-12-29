@@ -12,7 +12,7 @@ _______________
 	$ cd brute-eagle
 	$ git pull
 	$ pip install -r requirements.txt
-	$ python white-ip.py
+	$ python ipdrone.py -v <target ip>
 
 
 Github   : https://github.com/WH1T3-E4GL3
