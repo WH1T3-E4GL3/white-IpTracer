@@ -19,7 +19,6 @@ clear = '\033[0m'
 bold = '\033[01m'
 cyan = '\033[96m'
 
-#banner of script
 print (yellow+"""
 
 █───█ █──█ ─▀─ ▀▀█▀▀ █▀▀ 　 ─▀─ █▀▀█ 　 ▀▀█▀▀ █▀▀█ █▀▀█ █▀▀ █▀▀ █▀▀█ 
@@ -27,9 +26,11 @@ print (yellow+"""
 ─▀─▀─ ▀──▀ ▀▀▀ ──▀── ▀▀▀ 　 ▀▀▀ █▀▀▀ 　 ──▀── ▀─▀▀ ▀──▀ ▀▀▀ ▀▀▀ ▀─▀▀
 """+yellow)
 print (lgreen+bold+"|||||||||||||| Author   : white-eagle |||||||||||||||| \n"+clear)
-print (lgreen+bold+"-------------- Github   : https://github.com/WH1T3-E4GL3 --------------")
-print (lgreen+bold+"-------------- Telegram : https://t.me/Ka_KsHi_HaTaKe    --------------")
-
+print("\033[32m================================================================\033[0m")
+print("\033[32mTool devoloped : white-eagle\033[0m")
+print("\033[33mGithub 	       : https://github.com/WH1T3-E4GL3/\033[0m")
+print("\033[33mTelegram       : https://t.me/Ka_KsHi_HaTaKe\033[0m")
+print("\033[32m================================================================\033[0m")
 
 ip = args.target
 
